@@ -69,7 +69,11 @@ h4 {
 #section_2 {
     background-color: #fff;
     background-size: cover;
-    height: 650px;
+    height: 1000px;
+}
+#section2-main{
+    display: flex;
+    flex-direction: row;
 }
 
 #button-misyon {
@@ -97,27 +101,29 @@ h4 {
 #box2-misyon {
     margin-left: 180px;
     float: left;
+    
 }
 
 .description {
     line-height: 2em;
-    width: 590px;
+    width: 500px;
     color: #808ea3;
     text-align: justify;
-}
-
-.description2 {
-    line-height: 2em;
-    width: 590px;
-    color: #808ea3;
-    text-align: justify;
+    margin-left: 200px;
 }
 
 #video-misyon {
     position: absolute;
-    margin-left: 850px;
-    margin-bottom: 200px;
     width: 500px;
-    height: 345px;
+    height: 300px;
     border: 2px rgb(0, 0, 0);
+    
+}
+#div-video{
+    margin-left: 100px;
+    margin-top: -70px;
+   
+}
+#div-button{
+    margin-left: 200px;
 }
