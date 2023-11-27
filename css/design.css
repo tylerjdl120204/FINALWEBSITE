@@ -1,61 +1,128 @@
-body{
+body {
     margin: 0;
-   
 }
-header{
-background-image: url(../img/Church-supplies.jpg);   
-background-size: cover;
-height:1000px; 
+
+header {
+    background-image: url(../img/Church-supplies.jpg);
+    background-size: cover;
+    height: 1000px;
 
 }
-#header{
+
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
 
-    
+
 #logo {
     width: 100px;
     height: 100px;
 }
 
-.nav_links{
+.nav_links {
     list-style: none;
-    
+
 }
-.nav_links li,a{
+
+.nav_links li,
+a {
     display: inline-block;
     padding: 0 20px;
     text-decoration: none;
     color: #fff;
-   transition: all .3s ease;
+    transition: all .3s ease;
 }
-.nav_links li:hover{
+
+.nav_links li:hover {
     background-color: red;
     border-radius: 50px 50px 50px 50px;
 }
-#box{
+
+#box {
     width: 100%;
     height: 200px;
     margin-top: 200px;
     
     display: flex;
     justify-content: end;
-    
+
 }
-#box div{
-padding: 20px;    
-margin-right: 300px;
+
+#box div {
+    padding: 20px;
+    margin-right: 300px;
 }
-#box div, h4{
-    
+
+#box div,
+h4 {
     width: 200px;
     background-color: #fff;
     text-align: center;
 }
 
+/*SECTION 2*/
 
+#section_2 {
+    background-color: #fff;
+    background-size: cover;
+    height: 1000px;
+}
+#section2-main{
+    display: flex;
+    flex-direction: row;
+}
 
+#button-misyon {
+    margin-top: 150px;
+    border-radius: 50px;
+    font-size: 10px;
+    background-color: #192f5e;
+    padding: 10px 15px;
+    color: #fff;
+}
 
+#button-misyon:hover {
+    background-color: #fff;
+    color: #192f5e;
+}
+
+#title-misyon {
+    color: #384b74;
+}
+
+.misyon {
+    margin-left: 180px;
+}
+
+#box2-misyon {
+    margin-left: 180px;
+    float: left;
+    
+}
+
+.description {
+    line-height: 2em;
+    width: 500px;
+    color: #808ea3;
+    text-align: justify;
+    margin-left: 200px;
+}
+
+#video-misyon {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border: 2px rgb(0, 0, 0);
+    
+}
+#div-video{
+    margin-left: 100px;
+    margin-top: -70px;
+   
+}
+#div-button{
+    margin-left: 200px;
+}
