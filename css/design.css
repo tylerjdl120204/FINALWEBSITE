@@ -1,94 +1,3 @@
-/*login*/
-#log_background{
-    background-image: url("../img/background.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.main{
-	width: 350px;
-	height: 500px;
-	background: red;
-	overflow: hidden;
-	background-image: url("../img/bible.avif");
-	border-radius: 10px;
-	box-shadow: 5px 20px 50px #000;
-    align-items: center;
-    margin-top: 150px ;
-    margin-left: 750px ;
-}
-#chk{
-	display: none;
-}
-.signup{
-	position: relative;
-	width:100%;
-	height: 100%;
-}
-label{
-	color: #fff;
-	font-size: 2.3em;
-	justify-content: center;
-	display: flex;
-	margin: 60px;
-	font-weight: bold;
-	cursor: pointer;
-	transition: .5s ease-in-out;
-}
-input{
-	width: 60%;
-	height: 20px;
-	background: #e0dede;
-	justify-content: center;
-	display: flex;
-	margin: 20px auto;
-	padding: 10px;
-	border: none;
-	outline: none;
-	border-radius: 5px;
-}
-button{
-	width: 60%;
-	height: 40px;
-	margin: 10px auto;
-	justify-content: center;
-	display: block;
-	color: #fff;
-	background: #573b8a;
-	font-size: 1em;
-	font-weight: bold;
-	margin-top: 20px;
-	outline: none;
-	border: none;
-	border-radius: 5px;
-	transition: .2s ease-in;
-	cursor: pointer;
-}
-button:hover{
-	background: #6d44b8;
-}
-.login{
-	height: 460px;
-	background: #eee;
-	border-radius: 60% / 10%;
-	transform: translateY(-180px);
-	transition: .8s ease-in-out;
-    background-image: url("../img/360_F_140069969_4hXz9RqqlaIk1ncnuEj2O541hzlAorYj.jpg");
-}
-.login label{
-	color: #573b8a;
-	transform: scale(.6);
-}
-
-#chk:checked ~ .login{
-	transform: translateY(-500px);
-}
-#chk:checked ~ .login label{
-	transform: scale(1);	
-}
-#chk:checked ~ .signup label{
-	transform: scale(.6);
-}   
-
 /*SECTION 1*/
 body {
     margin: 0;
@@ -98,6 +7,7 @@ header {
     background-image: url(../img/Church-supplies.jpg);
     background-size: cover;
     height: 1000px;
+    width: 100%;
 
 }
 
@@ -149,8 +59,7 @@ a {
     margin-right: 300px;
 }
 
-#box div
-h4 {
+#box div h4 {
     width: 400px;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -189,15 +98,17 @@ h4 {
 
 #title-misyon {
     color: #384b74;
+    margin-left: 10px;
+
 }
 
 .misyon {
-    margin-left: 180px;
+    margin-left: 370px;
 }
 
 #box2-misyon {
-    margin-left: 180px;
-    float: left;
+   margin-left: 200px;
+    width:500px;
 
 }
 
@@ -218,13 +129,13 @@ h4 {
 }
 
 #div-video {
-    margin-left: 100px;
+    margin-left: 400px;
     margin-top: -70px;
 
 }
 
 #div-button {
-    margin-left: 200px;
+    margin-left: 20px;
 }
 
 /*SECTION 3*/
@@ -233,12 +144,11 @@ h4 {
     background-image: url(../img/sec3visual.jpg);
     background-size: cover;
     height: 500px;
-    /* Adjust the height as needed */
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    
 }
 
 #section-3-box {
@@ -267,27 +177,21 @@ h4 {
     overflow: hidden;
 
     width: 100%;
-    height: 100px;
+    height: 25%;
 }
 
-.section3-nav {
-    list-style-type: none;
-}
-
-.section3-nav,
+.section3-navlinks,
+li,
 a {
-    float: left;
-    text-decoration: none;
-    color: #fff;
-    transition: all 0.3s ease;
-
-    padding: 0 20px;
+    font-size: 10px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
 }
 
-.section3-navlinks {
-    text-align: center;
-    margin-left: 170px;
-    margin-top: 40px;
+.section3-navlinks,
+h2 {
+    display: inline-block;
 }
 
 #search-bar {
@@ -299,6 +203,7 @@ a {
     border-radius: 10px;
 
     margin-top: -10px;
+    margin-bottom: 25px;
     float: right;
     width: 350px;
     right: 200px;
@@ -313,10 +218,172 @@ a {
     border-radius: 10px;
     padding-left: 15px;
     padding-right: 15px;
-
     position: absolute;
-    right: 200px;
+    display: flex;
+    justify-content: end;
     height: 35px;
     margin-top: -6px;
-    margin-right: 5px;
+    margin-right: 100px;
+    right: 0; 
 }
+
+/*SECTION 4*/
+#section-4 {
+    width: 100%;
+    height: 1000px;
+}
+
+.section-4-title {
+   text-align: center;
+   width: 100%;
+   margin-top: 50px;
+}
+
+#section-4-grid {
+    
+    margin-top: 2%;
+    display: grid;
+    height: 80%;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20%;
+    gap: 25px;
+}
+
+#section-4-grid,
+iframe {
+    width: 100%;
+    height: 70%;
+}
+
+.yt-title {
+    text-align: justify;
+    color: #2f436e;
+}
+
+.yt-date {
+    color: #676767;
+    text-align: left;
+    opacity: 0.5px;
+}
+
+/* SECTION 5*/
+/* Section Styles */
+/* Section Styles */
+#section-5 {
+    background-color: rgba(10, 8, 31, 255);
+    height: 100%; /* Assuming it's within a parent with a set height */
+    width: 100%;
+    display: flex; /* Using flexbox for easier alignment */
+}
+
+/* Left Side */
+#sec5-left {
+    color: #f1f0f1;
+    word-spacing: 2.1px;
+    line-height: 25px;
+    margin-top: 200px;
+    margin-left: 350px; /* Adjusted left margin for better alignment */
+    flex: 1; /* To occupy available space */
+    padding-top: 50px;
+}
+
+/* Right Side */
+#sec5-right {
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 400px; /* Adjusted right margin for better alignment */
+    color: #fafafb;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#sec5-right p {
+    color: #5e677d;
+}
+#sec5-right h2{
+    margin-left: 130px;
+}
+
+/* Form and Inputs */
+form {
+    display: block;
+    margin-top: 20px; /* Space between paragraphs and form */
+}
+
+.btm_form {
+    margin: 12px 0 0;
+}
+
+#sec5-right form {
+    text-align: right; /* Align the form content to the right */
+}
+
+.btm_form input,
+.btm_form textarea {
+    width: calc(100% - 4px); /* Adjusted width considering padding and borders */
+    height: 58px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    margin: 8px 0;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: #9cb1cb;
+    padding: 0 28px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.btm_form textarea {
+    height: 105px;
+    resize: none;
+    padding-top: 17px; /* Adjusted top padding */
+}
+
+.btm_form input:last-child {
+    height: 58px;
+    background-color: #171347;
+    margin-top: 20px; /* Adjusted margin for the last input */
+    color: #fff;
+    border: none;
+}
+.social_media_footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social_media_footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social_media_footer li {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.social_media_footer a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.social_media_footer h2 {
+    margin: 5px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff; /* Adjust as needed */
+}
+
+.social_media_footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social_media_footer img:hover {
+    transform: scale(1.1);
+}
+
