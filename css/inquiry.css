@@ -1,0 +1,61 @@
+body {
+    background-image: url("../img/inquirybg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 676px;
+}
+
+#inquiry {
+    text-align: center;
+}
+
+.left-content {
+    margin-bottom: 75px;
+}
+
+.right-content {
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fafafb;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.inqureIMG{
+    margin-top: -5%;
+    margin-left: 3.5%;
+    position: absolute;
+}
+
+form {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.btm_form input,
+.btm_form textarea {
+    width: calc(100% - 4px);
+    height: 58px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    margin: 8px 0;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: #9cb1cb;
+    padding: 0 28px;
+    box-sizing: border-box;
+}
+
+.btm_form textarea {
+    height: 105px;
+    resize: none;
+    padding-top: 17px;
+}
+
+.btm_form input:last-child {
+    height: 58px;
+    background-color: #171347;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+}

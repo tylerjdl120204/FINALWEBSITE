@@ -44,27 +44,21 @@ a {
 }
 
 #box {
-    width: 100%;
+    width: 450px;
     height: 200px;
     margin-top: 200px;
-
     display: flex;
     justify-content: end;
-
+    background-color: #ffffff;
+    margin-left: 55%;
 }
 
-#box div {
-    padding: 20px;
-    background-color: #fff;
-    margin-right: 300px;
-}
-
-#box div h4 {
-    width: 400px;
-    color: rgb(0, 0, 0);
+.qoute{
+    padding: 30px;
+    color: black;
     text-align: center;
-
 }
+
 
 
 
@@ -73,7 +67,8 @@ a {
 #section_2 {
     background-color: #fff;
     background-size: cover;
-    height: 700px;
+    height: 500px;
+    width: 750px;
 }
 
 #section2-main {
@@ -89,6 +84,7 @@ a {
     padding: 10px 15px;
     color: #fff;
     cursor: pointer;
+    display: block;
 }
 
 #button-misyon:hover {
@@ -98,18 +94,15 @@ a {
 
 #title-misyon {
     color: #384b74;
-    margin-left: 10px;
-
+    margin-left: 170px;
 }
 
 .misyon {
-    margin-left: 370px;
+    margin-left: 170px;
 }
 
 #box2-misyon {
-   margin-left: 200px;
-    width:500px;
-
+    width: 500px;
 }
 
 .description {
@@ -121,16 +114,16 @@ a {
 }
 
 #video-misyon {
-    position: absolute;
     width: 500px;
     height: 300px;
     border: 2px rgb(0, 0, 0);
-
+    display: block;
 }
 
 #div-video {
-    margin-left: 400px;
-    margin-top: -70px;
+    margin-right: 50px;
+    margin-left: 300px;
+    margin-top: -150px;
 
 }
 
@@ -148,7 +141,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 #section-3-box {
@@ -166,8 +159,9 @@ h4 {
     background-color: rgba(0, 0, 0, 0);
     color: #fff;
     text-align: center;
-
+    margin-left: 800px;
     width: 400px;
+
 }
 
 /* SECTION 3-NAV */
@@ -175,23 +169,24 @@ h4 {
 #section_3-nav {
     background-color: #333;
     overflow: hidden;
-
     width: 100%;
-    height: 25%;
+    height: 20%;
 }
 
 .section3-navlinks,
 li,
 a {
+    margin-top: 10px;
     font-size: 10px;
     text-align: center;
     list-style: none;
     display: inline-block;
 }
 
-.section3-navlinks,
-h2 {
-    display: inline-block;
+.link-socmed {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 65px;
 }
 
 #search-bar {
@@ -201,8 +196,8 @@ h2 {
     position: relative;
     cursor: text;
     border-radius: 10px;
-
-    margin-top: -10px;
+    display: flex;
+    margin-top: -50px;
     margin-bottom: 25px;
     float: right;
     width: 350px;
@@ -216,37 +211,36 @@ h2 {
     cursor: pointer;
     font-size: 15px;
     border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 10px;
     position: absolute;
     display: flex;
     justify-content: end;
     height: 35px;
-    margin-top: -6px;
-    margin-right: 100px;
-    right: 0; 
+    margin-top: -45px;
+    margin-right: 205px;
+    right: 0;
 }
 
 /*SECTION 4*/
 #section-4 {
     width: 100%;
-    height: 1000px;
+    height: 750px;
 }
 
 .section-4-title {
-   text-align: center;
-   width: 100%;
-   margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
 }
 
 #section-4-grid {
-    
+
     margin-top: 2%;
     display: grid;
     height: 80%;
     justify-content: center;
     grid-template-columns: 20% 20% 20%;
-    gap: 25px;
+    gap: 40px;
 }
 
 #section-4-grid,
@@ -271,9 +265,11 @@ iframe {
 /* Section Styles */
 #section-5 {
     background-color: rgba(10, 8, 31, 255);
-    height: 100%; /* Assuming it's within a parent with a set height */
+    height: 100%;
+    /* Assuming it's within a parent with a set height */
     width: 100%;
-    display: flex; /* Using flexbox for easier alignment */
+    display: flex;
+    /* Using flexbox for easier alignment */
 }
 
 /* Left Side */
@@ -282,8 +278,10 @@ iframe {
     word-spacing: 2.1px;
     line-height: 25px;
     margin-top: 200px;
-    margin-left: 350px; /* Adjusted left margin for better alignment */
-    flex: 1; /* To occupy available space */
+    margin-left: 350px;
+    /* Adjusted left margin for better alignment */
+    flex: 1;
+    /* To occupy available space */
     padding-top: 50px;
 }
 
@@ -291,7 +289,8 @@ iframe {
 #sec5-right {
     width: 500px;
     margin-top: 30px;
-    margin-right: 400px; /* Adjusted right margin for better alignment */
+    margin-right: 400px;
+    /* Adjusted right margin for better alignment */
     color: #fafafb;
     font-size: 25px;
     font-weight: 500;
@@ -300,14 +299,16 @@ iframe {
 #sec5-right p {
     color: #5e677d;
 }
-#sec5-right h2{
+
+#sec5-right h2 {
     margin-left: 130px;
 }
 
 /* Form and Inputs */
 form {
     display: block;
-    margin-top: 20px; /* Space between paragraphs and form */
+    margin-top: 20px;
+    /* Space between paragraphs and form */
 }
 
 .btm_form {
@@ -315,12 +316,14 @@ form {
 }
 
 #sec5-right form {
-    text-align: right; /* Align the form content to the right */
+    text-align: right;
+    /* Align the form content to the right */
 }
 
 .btm_form input,
 .btm_form textarea {
-    width: calc(100% - 4px); /* Adjusted width considering padding and borders */
+    width: calc(100% - 4px);
+    /* Adjusted width considering padding and borders */
     height: 58px;
     border: 2px solid #fff;
     border-radius: 7px;
@@ -329,22 +332,26 @@ form {
     font-size: 15px;
     color: #9cb1cb;
     padding: 0 28px;
-    box-sizing: border-box; /* Ensure padding is included in width */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
 }
 
 .btm_form textarea {
     height: 105px;
     resize: none;
-    padding-top: 17px; /* Adjusted top padding */
+    padding-top: 17px;
+    /* Adjusted top padding */
 }
 
 .btm_form input:last-child {
     height: 58px;
     background-color: #171347;
-    margin-top: 20px; /* Adjusted margin for the last input */
+    margin-top: 20px;
+    /* Adjusted margin for the last input */
     color: #fff;
     border: none;
 }
+
 .social_media_footer {
     display: flex;
     justify-content: center;
@@ -369,21 +376,21 @@ form {
     flex-direction: column;
 }
 
-.social_media_footer h2 {
-    margin: 5px 0 0;
+.icon-sec5{
     font-size: 14px;
     font-weight: bold;
-    color: #fff; /* Adjust as needed */
+    color: #fff;
+    margin-top: -25px;
 }
 
 .social_media_footer img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out;
+    margin-top: -65px;
+    font-size: 10px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
 }
 
 .social_media_footer img:hover {
     transform: scale(1.1);
 }
-
