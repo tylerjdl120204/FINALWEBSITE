@@ -1,12 +1,16 @@
+html,
 body {
     background-image: url("../img/inquirybg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 676px;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #inquiry {
     text-align: center;
+    height: 100%;
 }
 
 .left-content {
