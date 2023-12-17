@@ -1,4 +1,32 @@
 /*login*/
+#selfie{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+#selfie img{
+    height: 200px ;
+    width: 200px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 5%;
+    display: block;
+    align-content: center;
+}
+
+#name-creators{
+    padding: 10px;
+    color: black;
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 5%;
+    border-color: #000;
+    border-style: solid;
+}
+
+
+
+
 #log_background {
     background-image: url("../img/background.avif");
     background-repeat: no-repeat;
