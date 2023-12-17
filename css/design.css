@@ -39,7 +39,7 @@ header {
 .nav_links li,
 a {
     display: inline-block;
-    padding: 5px 25px; /* Increased padding for better spacing */
+    padding: 5px 25px;
     text-decoration: none;
     color: #fff;
     transition: all .3s ease;
@@ -272,15 +272,11 @@ iframe {
 }
 
 /* SECTION 5*/
-/* Section Styles */
-/* Section Styles */
 #section-5 {
     background-color: rgba(10, 8, 31, 255);
     height: 100%;
-    /* Assuming it's within a parent with a set height */
     width: 100%;
     display: flex;
-    /* Using flexbox for easier alignment */
 }
 
 /* Left Side */
@@ -290,9 +286,7 @@ iframe {
     line-height: 25px;
     margin-top: 200px;
     margin-left: 350px;
-    /* Adjusted left margin for better alignment */
     flex: 1;
-    /* To occupy available space */
     padding-top: 50px;
 }
 
@@ -301,7 +295,6 @@ iframe {
     width: 500px;
     margin-top: 30px;
     margin-right: 400px;
-    /* Adjusted right margin for better alignment */
     color: #fafafb;
     font-size: 25px;
     font-weight: 500;
@@ -319,7 +312,6 @@ iframe {
 form {
     display: block;
     margin-top: 20px;
-    /* Space between paragraphs and form */
 }
 
 .btm_form {
@@ -328,13 +320,11 @@ form {
 
 #sec5-right form {
     text-align: right;
-    /* Align the form content to the right */
 }
 
 .btm_form input,
 .btm_form textarea {
     width: calc(100% - 4px);
-    /* Adjusted width considering padding and borders */
     height: 58px;
     border: 2px solid #fff;
     border-radius: 7px;
@@ -344,21 +334,18 @@ form {
     color: #9cb1cb;
     padding: 0 28px;
     box-sizing: border-box;
-    /* Ensure padding is included in width */
 }
 
 .btm_form textarea {
     height: 105px;
     resize: none;
     padding-top: 17px;
-    /* Adjusted top padding */
 }
 
 .btm_form input:last-child {
     height: 58px;
     background-color: #171347;
     margin-top: 20px;
-    /* Adjusted margin for the last input */
     color: #fff;
     border: none;
 }
