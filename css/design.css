@@ -543,7 +543,7 @@ form {
         margin-left: -70px;
     }
 }
-    @media only screen and (max-width: 784px){
+    @media only screen and (max-width: 768px){
     #header nav{
         margin-left: -30px;
     }
@@ -564,6 +564,7 @@ form {
          margin-left: -850px;
     }
     .section-4-iframe{
+        justify-content: center;
         width: 200px;
         padding: 20px;
     }
@@ -571,7 +572,8 @@ form {
         font-size: small;
     }
     #section-5{
-        width: 700px;
+        width: 100%;
+        justify-content: center;
     }
 }
 @media only screen and (max-width: 636px){

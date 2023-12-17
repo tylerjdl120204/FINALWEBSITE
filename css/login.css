@@ -102,3 +102,33 @@ input {
 #chk:checked~.signup label {
     transform: scale(.6);
 }
+@media only screen and (max-width: 1440px){
+    .main{
+        margin-left: 550px;
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .main{
+        margin-left: 350px;
+        margin-top: 100px;
+    }
+    #log_background{
+        height: 900px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .main{
+        margin-left: 200px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .main{
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .main{
+        margin-left: -10px;
+    }
+}

@@ -3,13 +3,13 @@ body {
     background-image: url("../img/inquirybg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
+
     min-height: 100%;
     margin: 0;
     padding: 0;
-=======
+
     height: 100%;
->>>>>>> b7b882a2032a3ddcb65b27078877319e4e7e3853
+
 }
 
 #inquiry {
@@ -67,3 +67,4 @@ form {
     color: #fff;
     border: none;
 }
+
