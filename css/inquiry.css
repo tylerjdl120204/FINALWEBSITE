@@ -2,7 +2,7 @@ body {
     background-image: url("../img/inquirybg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 676px;
+    height: 100%;
 }
 
 #inquiry {
